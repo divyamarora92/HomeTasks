@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#search{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 30px;
+    width: 80%;
+}
+#search-btn{
+    height: 30px;
+    width: 100px;
+}
+#videos{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content:space-between;
+}
+.items{
+    display: flex;
+    justify-content: flex-start;
+}
+.desc{
+    text-align:start ;
+    margin-left: 15px;
+    font-size: x-large;
+}
+#player{
+    padding: 20px;
+}
