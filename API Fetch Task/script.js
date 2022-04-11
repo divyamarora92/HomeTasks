@@ -1,6 +1,6 @@
 let videos=document.getElementById("videos");
 $(document).ready(function(){
-    var API_KEY="AIzaSyAoIIJI4tST-ecOzzg_q_mm89vt-e9cTdQ";
+    var API_KEY="your api key";
     var video='';
     var desc=""
     $("#form").submit(function(event){
