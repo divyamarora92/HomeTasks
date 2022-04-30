@@ -3,31 +3,97 @@
     padding: 0px;
     margin: 0px;
 }
-#search{
-    margin-top: 20px;
+nav{ 
+    background-color: rgb(244, 244, 244);
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+nav img{
+    width: 100px;
+    height: 60px;
+    /* background: white; */
+    border-radius: 5px;
+    margin-right: 200px;
+
+}
+.search{
+    /* margin-left: 500px; */
+}
+#search-input{
+    margin-top: 15px;
     margin-left: 50px;
     height: 30px;
-    width: 80%;
 }
-#search-btn{
-    height: 30px;
-    width: 100px;
+.fa-search{
+    color:black;
+    font-size: 48px;
+    align-self: center;
+    margin-left: 2px;
 }
 #videos{
     display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.items{
+iframe{
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 200px;
+    border-radius: 10px;
 }
-.desc{
-    text-align:start ;
-    margin-left: 15px;
-    font-size: x-large;
+.video{
+    margin-top: 10px;
 }
-#player{
-    padding: 20px;
+.video img{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+}
+.content{
+    margin-top: 20px;
+    width: 300px;
+}
+.frames{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    margin-top: -15px;
+}
+.pagenumbers {
+    text-align: center;
+    left: 50;
+
+}
+
+.pagenumbers button {
+	width: 50px;
+	height: 50px;
+    border-radius: 50%;
+
+	appearance: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	background-color: #44AAEE;
+
+	margin: 5px;
+	transition: 0.4s;
+
+	color: #FFF;
+	font-size: 18px;
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+	background-color: #44EEAA;
+}
+
+.pagenumbers button.active {
+	background-color: #44EEAA;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
