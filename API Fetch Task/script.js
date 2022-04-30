@@ -3,7 +3,7 @@ let videoCardContainer = document.getElementById("videos");
 let searchLink = "https://www.googleapis.com/youtube/v3/search?";
 let searchBtn = document.querySelector("#search-btn");
 let searchInput = document.getElementById("search-input");
-let api_key = "AIzaSyDuJ7E2snKMlIqzxQU29aiijhTCntt8pIw";
+let api_key = "";
 let videos = [];
 const pagination = {
   start: 0,
